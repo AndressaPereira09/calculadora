@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: base;
+    src: url(Moanas.ttf);
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    font-family: base;
+    letter-spacing: 2px;
+    font-size: 70px;
+    padding: 10px;
+    margin-top: -60px;
+}
+
+footer {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #000;
+}
+
+#calculator {
+    max-width: 360px;
+    margin-top: -40px;
+    background-color: #f75c03;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 7px 7px 0 #52af26;
+}
+
+#display {
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 25px;
+    color: #fff;
+    background-color: #06aed5;
+    border: none;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(25% - 10px);
+    height: 35px;
+    font-size: 17px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    float: left;
+    background-color: #f7b900;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, .5);
+}
+
+#ac {
+    background-color: #52af26;
+    color: #fff;
+}
+
+.operator {
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+    box-shadow: none;
+}
